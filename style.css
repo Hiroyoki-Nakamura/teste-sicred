@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit;
+}
+
+input,
+select,
+button {
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+.link a{
+  font-size: 28px;
+  text-decoration: none;
+  /* color: inherit; */
+}
+.link a:hover {
+  color: red;
+}
+
+.content {
+  width: auto;
+  align-items: center;
+}
+.primary {
+  width: 150px;
+  height: 40px;
+  background-color: green;
+  color: #fff;
+  font-size: large;
+}
+.search {
+  width: 75px;
+  height: 80px;
+  background-color: gray;
+  color: #fff;
+  font-size: 40px;
+}
+.troggle {
+  width: 75px;
+  height: 80px;
+  background-color: green;
+  color: #fff;
+  font-size: 40px;
+}
+.section{
+    margin: 0 80px;
+    display: flex;
+    
+}
+.description{
+    width: 30%;
+    text-align: left;
+}
+.title{
+    font-size: 74px;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+}
+.list{
+    width: 20%;
+    text-align: right;
+}
+.list ul li{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.carrosel{
+    width: 70%;
+}
+.subtitle{
+    font-size: 28px;
+    color: green;
+    font-weight: bold;
+}
+.new{
+    width: 70px;
+    border-radius: 6px;
+    background-color: yellow;
+}
